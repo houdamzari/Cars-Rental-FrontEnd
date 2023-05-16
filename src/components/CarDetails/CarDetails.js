@@ -8,7 +8,7 @@ import './CarDetails.css';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchCar } from '../../redux/slices/carSlice';
 import { useNavigate } from 'react-router-dom';
-function CarDetails(props) {
+const CarDetails = (props) => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
   const { singleCar } = useSelector((state) => state.cars);
@@ -82,6 +82,6 @@ function CarDetails(props) {
       </div>
     </div>
   );
-}
+};
 
 export default CarDetails;
