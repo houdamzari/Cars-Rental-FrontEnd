@@ -62,6 +62,8 @@ Api documentation can be found [here](https://documenter.getpostman.com/view/269
 
 Api live demo can be found [here](https://cars-api.up.railway.app/)
 
+API repository can be found [here](https://github.com/demix007/car-rentals-backend)
+
 ## Contributors
 
 There were 4 contributors to this project, you can see their contact information in the Authors section of this document.
