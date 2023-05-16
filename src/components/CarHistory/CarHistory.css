@@ -5,7 +5,7 @@
   justify-content: center;
   gap: 2rem;
   flex-wrap: wrap;
-  padding-top: 30px;
+  padding: 60px 0;
 }
 
 .history-card {
@@ -13,7 +13,7 @@
   height: 45%;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
   background-color: rgb(230, 251, 251);
-  padding-top: 20px;
+  padding: 20px;
 }
 
 .history-card > img {
@@ -43,7 +43,7 @@
   }
 
   .history-card {
-    height: 30%;
+    height: 45%;
   }
 
   .card-title {
