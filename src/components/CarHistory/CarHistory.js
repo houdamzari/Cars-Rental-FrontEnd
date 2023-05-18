@@ -1,9 +1,9 @@
-import React from 'react';
-import { Card, Button } from 'react-bootstrap';
-import './CarHistory.css';
-import { useDispatch, useSelector } from 'react-redux';
-import { deleteCar } from '../../redux/slices/carSlice';
-import { removeCar } from '../../redux/slices/carSlice';
+import React from "react";
+import { Card, Button } from "react-bootstrap";
+import "./CarHistory.css";
+import { useDispatch, useSelector } from "react-redux";
+import { deleteCar } from "../../redux/slices/carSlice";
+import { removeCar } from "../../redux/slices/carSlice";
 
 const CarHistory = (props) => {
   const { cars } = useSelector((state) => state.cars);
@@ -15,14 +15,14 @@ const CarHistory = (props) => {
   };
 
   return (
-    <div className="cards-grid">
+    <div className="row justify-content-center p-3 gap-4 mt-5">
       {cars &&
         cars?.map((car) => (
           <Card key={car.id} className="history-card">
             <Card.Img variant="top" src={car.photo} />
             <Card.Body className="card-body">
               <Card.Title>{car.name}</Card.Title>
-              <Button variant="primary" onClick={() => handleRemoveCar(car.id)}>
+              <Button variant="danger" onClick={() => handleRemoveCar(car.id)}>
                 Delete
               </Button>
             </Card.Body>
