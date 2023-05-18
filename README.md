@@ -82,8 +82,8 @@ This app is built with React and Redux.
 > - The login page where the user logs in to the website.
 > - The home page where the user can see a list of cars and click on any car to display the details of that car.
 > - The details page is where the user can click on the "Reserve" button to reserve the car.
-> - The user can see a list of their reservations.
-> - The user can add a new car.
+> - User can see a list of their reservations.
+> - User can add a new car.
 > - The user can click on the delete button from the naviagtion panel and see a list of all cars with the car name and a "delete" button and then delete a particular car.
 > - The deleted cars are removed from the home page.
 
