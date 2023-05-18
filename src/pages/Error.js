@@ -4,20 +4,20 @@ import img from '../assets/not-found.png';
 import styled from 'styled-components';
 
 const Error = () => {
-  return (
-    <Wrapper className="full-page">
-      <div>
-        <img src={img} alt="not found" />
-        <h3>:! Page Not Found</h3>
-        <p>
-          We apologize, but it seems the page you were looking for cannot be
-          found. Please click on the Back Home button to return to our homepage.
-          Thank you for your understanding.
-        </p>
-        <Link to="/">back home</Link>
-      </div>
-    </Wrapper>
-  );
+	return (
+		<Wrapper className="full-page">
+			<div>
+				<img src={img} alt="not found" />
+				<h3>:! Page Not Found</h3>
+				<p>
+					We apologize, but it seems the page you are looking for cannot be
+					found. Please click on the Back Home button to return to our homepage.
+					Thank you for your understanding.
+				</p>
+				<Link to="/">back home</Link>
+			</div>
+		</Wrapper>
+	);
 };
 
 const Wrapper = styled.main`
