@@ -62,7 +62,7 @@ const Slider = (props) => {
 								<div className="car-info text-center">
 									<h3 className="car-title">{car.name}</h3>
 									<p className="car-description">
-										{car.description}{' '}
+										{car.description}
 										<span className="car-description">{car.model}</span>
 									</p>
 
@@ -75,7 +75,7 @@ const Slider = (props) => {
 										/>
 									</div>
 								</div>
-							</Link>{' '}
+							</Link>
 						</SwiperSlide>
 					))}
 				</Swiper>
