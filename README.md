@@ -11,32 +11,32 @@
 
 - [📗 Table of Contents](#-table-of-contents)
 - [📖 Cars Rental Frontend ](#-cars-rental-frontend-)
-  - [Live Demo](#live-demo)
-  - [Desktop View](#desktop-view)
-  - [Mobile View](#mobile-view)
-  - [Kanban Board](#kanban-board)
-  - [Backend](#backend)
-  - [Contributors](#contributors)
-  - [🛠 Built With ](#-built-with-)
-    - [Tech Stack ](#tech-stack-)
-    - [Key Features ](#key-features-)
-  - [💻 Getting Started ](#-getting-started-)
-  - [To get a local copy up and running, follow these steps.](#to-get-a-local-copy-up-and-running-follow-these-steps)
-    - [Prerequisites](#prerequisites)
-    - [Setup](#setup)
-    - [Install](#install)
-  - [👥 Authors ](#-authors-)
-  - [🔭 Future Features ](#-future-features-)
-  - [🤝 Contributing ](#-contributing-)
-  - [⭐️ Show your support ](#️-show-your-support-)
-  - [🙏 Acknowledgments ](#-acknowledgments-)
-  - [📝 License ](#-license-)
+	- [Live Demo](#live-demo)
+	- [Desktop View](#desktop-view)
+	- [Mobile View](#mobile-view)
+	- [Kanban Board](#kanban-board)
+	- [Backend](#backend)
+	- [Contributors](#contributors)
+	- [🛠 Built With ](#-built-with-)
+		- [Tech Stack ](#tech-stack-)
+		- [Key Features ](#key-features-)
+	- [💻 Getting Started ](#-getting-started-)
+	- [To get a local copy up and running, follow these steps.](#to-get-a-local-copy-up-and-running-follow-these-steps)
+		- [Prerequisites](#prerequisites)
+		- [Setup](#setup)
+		- [Install](#install)
+	- [👥 Authors ](#-authors-)
+	- [🔭 Future Features ](#-future-features-)
+	- [🤝 Contributing ](#-contributing-)
+	- [⭐️ Show your support ](#️-show-your-support-)
+	- [🙏 Acknowledgments ](#-acknowledgments-)
+	- [📝 License ](#-license-)
 
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 Cars Rental Frontend <a name="about-project"></a>
 
-> Car Rentals Frontend is a React app that serves as a front end to the Car Rentals project.
+> Car Rentals is a React app that serves as a front end to the Car Rentals project.
 
 ## Live Demo
 
