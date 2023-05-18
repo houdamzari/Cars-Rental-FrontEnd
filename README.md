@@ -151,16 +151,16 @@ In order to run this project you need:
 - Twitter: [![MohamedHNoor](https://img.shields.io/badge/-MohamedHNoor-blue?logo=Twitter&logoColor=skyBlue&style=plastic)](https://twitter.com/MohamedHNoor)
 - LinkedIn: [![MohamedHNoor](https://img.shields.io/badge/-MohamedHNoor-white?logo=LinkedIn&logoColor=181717&style=plastic)](https://www.linkedin.com/in/mohamedhnoor/)
 
-👤 **Houda Mzari**
-
-- GitHub: [![houdamzari](https://img.shields.io/badge/-houdamzari-white?logo=GitHub&logoColor=181717&style=plastic)](https://github.com/houdamzari/)
-- LinkedIn: [![houdamzari](https://img.shields.io/badge/-houdamzari-white?logo=LinkedIn&logoColor=181717&style=plastic)](https://www.linkedin.com/in/houda-mzari/)
-
 👤 **Kashif Saleem**
 
 - GitHub:[![Kashif](https://img.shields.io/badge/-Kashif-white?logo=GitHub&logoColor=181717&style=plastic)](https://github.com/Kashif-Saleem-Ghuman)
 - Twitter:[![Kashif](https://img.shields.io/badge/-Kashif-blue?logo=Twitter&logoColor=skyBlue&style=plastic)](https://twitter.com/Kashif14Saleem)
 - LinkedIn:[![Kashif](https://img.shields.io/badge/-Kashif-white?logo=LinkedIn&logoColor=181717&style=plastic)](https://www.linkedin.com/in/kashifsaleemghuman/)
+
+👤 **Houda Mzari**
+
+- GitHub: [![houdamzari](https://img.shields.io/badge/-houdamzari-white?logo=GitHub&logoColor=181717&style=plastic)](https://github.com/houdamzari/)
+- LinkedIn: [![houdamzari](https://img.shields.io/badge/-houdamzari-white?logo=LinkedIn&logoColor=181717&style=plastic)](https://www.linkedin.com/in/houda-mzari/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
