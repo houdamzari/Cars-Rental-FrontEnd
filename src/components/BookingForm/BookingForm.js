@@ -20,6 +20,8 @@ const BookingForm = (props) => {
 		const isAnyFieldEmpty = Object.values(carData).some(
 			(value) => value === '',
 		);
+		// Display error message to fill out the empty field
+
 		if (isAnyFieldEmpty) {
 			setErrorMessage('Please fill out all fields');
 			setTimeout(() => {
