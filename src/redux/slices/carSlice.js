@@ -1,11 +1,12 @@
-import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
-import axios from 'axios';
-import { getUserFromLocalStorage } from '../../utils/LocalStorage';
+import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
+import axios from "axios";
+import { getUserFromLocalStorage } from "../../utils/LocalStorage";
+import { upload } from "@testing-library/user-event/dist/upload";
 
-export const BASE_URL = 'https://cars-api.up.railway.app/api/v1';
+export const BASE_URL = "https://cars-api.up.railway.app/api/v1";
 
 export const fetchCars = createAsyncThunk(
-  'cars/fetchData',
+  "cars/fetchData",
   async (_, { rejectWithValue }) => {
     try {
       const response = await axios.get(`${BASE_URL}/cars`);
@@ -13,11 +14,11 @@ export const fetchCars = createAsyncThunk(
     } catch (err) {
       return rejectWithValue(await err.response.data);
     }
-  },
+  }
 );
 
 export const fetchCar = createAsyncThunk(
-  'cars/fetchCar',
+  "cars/fetchCar",
   async (id, { rejectWithValue }) => {
     try {
       const response = await axios.get(`${BASE_URL}/cars/${id}`);
@@ -25,11 +26,11 @@ export const fetchCar = createAsyncThunk(
     } catch (err) {
       return rejectWithValue(await err.response.data);
     }
-  },
+  }
 );
 
 export const deleteCar = createAsyncThunk(
-  'cars/deleteCar',
+  "cars/deleteCar",
   async (id, { rejectWithValue }) => {
     try {
       const token = getUserFromLocalStorage();
@@ -42,11 +43,11 @@ export const deleteCar = createAsyncThunk(
     } catch (err) {
       return rejectWithValue(await err.response.data);
     }
-  },
+  }
 );
 
 export const createNewCar = createAsyncThunk(
-  'cars/createNewCar',
+  "cars/createNewCar",
   async (carData, { rejectWithValue }) => {
     try {
       const token = getUserFromLocalStorage();
@@ -59,11 +60,11 @@ export const createNewCar = createAsyncThunk(
     } catch (err) {
       return rejectWithValue(await err.response.data);
     }
-  },
+  }
 );
 
 export const createReservation = createAsyncThunk(
-  'cars/createReservation',
+  "cars/createReservation",
   async (reservationData, { rejectWithValue }) => {
     try {
       const token = getUserFromLocalStorage();
@@ -74,18 +75,18 @@ export const createReservation = createAsyncThunk(
           headers: {
             Authorization: `Bearer ${token.token}`,
           },
-        },
+        }
       );
       return response.data;
     } catch (err) {
       console.error(err);
       return rejectWithValue(await err.response.data);
     }
-  },
+  }
 );
 
 export const fetchReservations = createAsyncThunk(
-  'cars/fetchReservations',
+  "cars/fetchReservations",
   async (_, { rejectWithValue }) => {
     try {
       const token = getUserFromLocalStorage();
@@ -98,12 +99,12 @@ export const fetchReservations = createAsyncThunk(
     } catch (err) {
       return rejectWithValue(await err.response.data);
     }
-  },
+  }
 );
 
 export const deleteReservation = createAsyncThunk(
-  'cars/deleteReservation',
-  async (id, { rejectWithValue }) => {
+  "cars/deleteReservation",
+  async (id, { rejectWithValue, getState }) => {
     try {
       const token = getUserFromLocalStorage();
       const response = await axios.delete(`${BASE_URL}/reservations/${id}`, {
@@ -111,11 +112,15 @@ export const deleteReservation = createAsyncThunk(
           Authorization: `Bearer ${token.token}`,
         },
       });
-      return response.data;
+      const state = getState();
+      const filteredReservations = state.cars.reservations.filter(
+        (reservation) => reservation.id != id
+      );
+      return filteredReservations;
     } catch (err) {
       return rejectWithValue(await err.response.data);
     }
-  },
+  }
 );
 
 const initialState = {
@@ -125,7 +130,7 @@ const initialState = {
 };
 
 export const carSlice = createSlice({
-  name: 'cars',
+  name: "cars",
   initialState,
   reducers: {
     addCar: (state, action) => {
@@ -157,9 +162,7 @@ export const carSlice = createSlice({
       state.reservations = action.payload;
     },
     [deleteReservation.fulfilled]: (state, action) => {
-      state.reservations = state.reservations.filter(
-        (reservation) => reservation.id !== action.payload,
-      );
+      state.reservations = action.payload;
     },
   },
 });
