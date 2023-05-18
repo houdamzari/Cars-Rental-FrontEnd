@@ -131,6 +131,7 @@ const initialState = {
 export const carSlice = createSlice({
 	name: "cars",
 	initialState,
+	//reducers
 	reducers: {
 		addCar: (state, action) => {
 			state.cars.push(action.payload);
@@ -143,6 +144,7 @@ export const carSlice = createSlice({
 			state.reservations.push(action.payload);
 		},
 	},
+	//Extrareducers
 	extraReducers: {
 		[fetchCars.fulfilled]: (state, action) => {
 			state.cars = action.payload;
