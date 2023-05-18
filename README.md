@@ -66,7 +66,7 @@ API repository can be found [here](https://github.com/demix007/car-rentals-backe
 
 ## Contributors
 
-There were 4 contributors to this project, you can see their contact information in the Authors section of this document.
+There were Four contributors to this project, you can see their contact information in the Authors section of this document.
 
 ## 🛠 Built With <a name="built-with"></a>
 
