@@ -57,7 +57,7 @@ const Slider = (props) => {
 						<SwiperSlide key={car.id}>
 							<Link to={`/detailsPage/${car.id}`} className="wrapper">
 								<div className="slide-container">
-									<img className="car" src={car.photo} alt="car" />
+									<img className="car" src={car.photo} alt="car-picture" />
 								</div>
 								<div className="car-info text-center">
 									<h3 className="car-title">{car.name}</h3>
