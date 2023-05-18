@@ -16,10 +16,13 @@ const BookingForm = (props) => {
 	const [errorMessage, setErrorMessage] = useState('');
 	const handleCreateNewCar = async (e) => {
 		e.preventDefault();
+
 		// Check if any field is empty
+
 		const isAnyFieldEmpty = Object.values(carData).some(
 			(value) => value === '',
 		);
+
 		// Display error message to fill out the empty field
 
 		if (isAnyFieldEmpty) {
@@ -39,7 +42,9 @@ const BookingForm = (props) => {
 			model: '',
 		});
 		setSuccessMessage('Car created successfully');
+
 		// Clear success message after a delay (e.g., 3 seconds)
+
 		setTimeout(() => {
 			setSuccessMessage('');
 		}, 3000);
