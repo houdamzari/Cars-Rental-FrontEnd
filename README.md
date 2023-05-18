@@ -70,7 +70,7 @@ There were Four contributors to this project, you can see their contact informat
 
 ## 🛠 Built With <a name="built-with"></a>
 
-This app is build with React and Redux.
+This app is built with React and Redux.
 
 ### Tech Stack <a name="tech-stack"></a>
 
