@@ -21,14 +21,11 @@
   height: 9rem;
 }
 
-
-
 .history-card > div {
   width: 10rem;
   height: 100%;
   font-size: 1rem;
 }
-
 
 .card-body {
   display: flex;
