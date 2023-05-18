@@ -169,7 +169,7 @@ In order to run this project you need:
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **Allow users to choose a language for the application**
-- [ ] **Add payment option**
+- [ ] **Add payment options**
 - [ ] **Some UX improvements: include transitions and/or animations, etc.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
