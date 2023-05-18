@@ -15,7 +15,7 @@ const CarHistory = (props) => {
   };
 
   return (
-    <div className="row justify-content-center p-3 gap-4 mt-5">
+    <div className="d-flex flex-wrap justify-content-center p-3 gap-4 mt-5 w-100">
       {cars &&
         cars?.map((car) => (
           <Card key={car.id} className="history-card">
