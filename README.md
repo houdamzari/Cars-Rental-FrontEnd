@@ -11,36 +11,36 @@
 
 - [📗 Table of Contents](#-table-of-contents)
 - [📖 Cars Rental Frontend ](#-cars-rental-frontend-)
-  - [Live Demo](#live-demo)
-  - [Desktop View](#desktop-view)
-  - [Mobile View](#mobile-view)
-  - [Kanban Board](#kanban-board)
-  - [Backend](#backend)
-  - [Contributors](#contributors)
-  - [🛠 Built With ](#-built-with-)
-    - [Tech Stack ](#tech-stack-)
-    - [Key Features ](#key-features-)
-  - [💻 Getting Started ](#-getting-started-)
-  - [To get a local copy up and running, follow these steps.](#to-get-a-local-copy-up-and-running-follow-these-steps)
-    - [Prerequisites](#prerequisites)
-    - [Setup](#setup)
-    - [Install](#install)
-  - [👥 Authors ](#-authors-)
-  - [🔭 Future Features ](#-future-features-)
-  - [🤝 Contributing ](#-contributing-)
-  - [⭐️ Show your support ](#️-show-your-support-)
-  - [🙏 Acknowledgments ](#-acknowledgments-)
-  - [📝 License ](#-license-)
+	- [Live Demo](#live-demo)
+	- [Desktop View](#desktop-view)
+	- [Mobile View](#mobile-view)
+	- [Kanban Board](#kanban-board)
+	- [Backend](#backend)
+	- [Contributors](#contributors)
+	- [🛠 Built With ](#-built-with-)
+		- [Tech Stack ](#tech-stack-)
+		- [Key Features ](#key-features-)
+	- [💻 Getting Started ](#-getting-started-)
+	- [To get a local copy up and running, follow these steps.](#to-get-a-local-copy-up-and-running-follow-these-steps)
+		- [Prerequisites](#prerequisites)
+		- [Setup](#setup)
+		- [Install](#install)
+	- [👥 Authors ](#-authors-)
+	- [🔭 Future Features ](#-future-features-)
+	- [🤝 Contributing ](#-contributing-)
+	- [⭐️ Show your support ](#️-show-your-support-)
+	- [🙏 Acknowledgments ](#-acknowledgments-)
+	- [📝 License ](#-license-)
 
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 Cars Rental Frontend <a name="about-project"></a>
 
-> Car Rentals Frontend is a React app that serves as a front end to the Car Rentals project.
+> Car Rentals is a React app that serves as a front end to the Car Rentals project.
 
 ## Live Demo
 
-To see this project's live demo, please click [here](https://car-rentals-frontend.netlify.app/).
+To see this project's live demo, please click [here](https://cars-rental-front-end.vercel.app/).
 
 ## Desktop View
 
@@ -66,11 +66,11 @@ API repository can be found [here](https://github.com/demix007/car-rentals-backe
 
 ## Contributors
 
-There were 4 contributors to this project, you can see their contact information in the Authors section of this document.
+There were Four contributors to this project, you can see their contact information in the Authors section of this document.
 
 ## 🛠 Built With <a name="built-with"></a>
 
-This app is build with React and Redux.
+This app is built with React and Redux.
 
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -79,12 +79,12 @@ This app is build with React and Redux.
 
 ### Key Features <a name="key-features"></a>
 
-> - The login page where the user logs in to the website.
-> - The home page where the user can see a list of cars and click on any car to display the details of that car.
+> - Login page where the user logs in to the website.
+> - Home page where the user can see a list of cars and click on any car to display the details of that car.
 > - The details page is where the user can click on the "Reserve" button to reserve the car.
-> - The user can see a list of their reservations.
-> - The user can add a new car.
-> - The user can click on the delete button from the naviagtion panel and see a list of all cars with the car name and a "delete" button and then delete a particular car.
+> - User can see a list of their reservations.
+> - User can add a new car.
+> - User can click on the delete button from the naviagtion panel and see a list of all cars with the car name and a "delete" button and then delete a particular car.
 > - The deleted cars are removed from the home page.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -151,16 +151,16 @@ In order to run this project you need:
 - Twitter: [![MohamedHNoor](https://img.shields.io/badge/-MohamedHNoor-blue?logo=Twitter&logoColor=skyBlue&style=plastic)](https://twitter.com/MohamedHNoor)
 - LinkedIn: [![MohamedHNoor](https://img.shields.io/badge/-MohamedHNoor-white?logo=LinkedIn&logoColor=181717&style=plastic)](https://www.linkedin.com/in/mohamedhnoor/)
 
-👤 **Houda Mzari**
-
-- GitHub: [![houdamzari](https://img.shields.io/badge/-houdamzari-white?logo=GitHub&logoColor=181717&style=plastic)](https://github.com/houdamzari/)
-- LinkedIn: [![houdamzari](https://img.shields.io/badge/-houdamzari-white?logo=LinkedIn&logoColor=181717&style=plastic)](https://www.linkedin.com/in/houda-mzari/)
-
 👤 **Kashif Saleem**
 
 - GitHub:[![Kashif](https://img.shields.io/badge/-Kashif-white?logo=GitHub&logoColor=181717&style=plastic)](https://github.com/Kashif-Saleem-Ghuman)
 - Twitter:[![Kashif](https://img.shields.io/badge/-Kashif-blue?logo=Twitter&logoColor=skyBlue&style=plastic)](https://twitter.com/Kashif14Saleem)
 - LinkedIn:[![Kashif](https://img.shields.io/badge/-Kashif-white?logo=LinkedIn&logoColor=181717&style=plastic)](https://www.linkedin.com/in/kashifsaleemghuman/)
+
+👤 **Houda Mzari**
+
+- GitHub: [![houdamzari](https://img.shields.io/badge/-houdamzari-white?logo=GitHub&logoColor=181717&style=plastic)](https://github.com/houdamzari/)
+- LinkedIn: [![houdamzari](https://img.shields.io/badge/-houdamzari-white?logo=LinkedIn&logoColor=181717&style=plastic)](https://www.linkedin.com/in/houda-mzari/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -169,7 +169,7 @@ In order to run this project you need:
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **Allow users to choose a language for the application**
-- [ ] **Add payment option**
+- [ ] **Add payment options**
 - [ ] **Some UX improvements: include transitions and/or animations, etc.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
