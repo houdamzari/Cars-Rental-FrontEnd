@@ -57,71 +57,76 @@ const BookingForm = (props) => {
 	};
 
 	return (
-		<div className="w-50 container-b-form container">
-			<form onSubmit={handleCreateNewCar}>
-				<div className="d-flex flex-column justify-content-center align-items-center">
-					<label className="mb-4 h5 d-flex flex-column">
-						Name:
-						<input
-							className="mt-2 add-input"
-							type="text"
-							name="name"
-							value={carData.name}
-							onChange={handleInputChange}
-						/>
-					</label>
-					<label className="mb-4  h5 d-flex flex-column">
-						Description:
-						<input
-							className="mt-2 add-input"
-							type="text"
-							name="description"
-							value={carData.description}
-							onChange={handleInputChange}
-						/>
-					</label>
-					<label className="mb-4 h5 d-flex flex-column">
-						Photo:
-						<input
-							className="mt-2 add-input"
-							type="text"
-							name="photo"
-							value={carData.photo}
-							onChange={handleInputChange}
-						/>
-					</label>
-					<label className="mb-2 h5 d-flex flex-column">
-						Price:
-						<input
-							className="mt-2 add-input"
-							type="text"
-							name="price"
-							value={carData.price}
-							onChange={handleInputChange}
-						/>
-					</label>
-					<label className="mb-2 h5 d-flex flex-column">
-						Model:
-						<input
-							className="mt-2 add-input"
-							type="text"
-							name="model"
-							value={carData.model}
-							onChange={handleInputChange}
-						/>
-					</label>
-					<input className="mt-4 button-b-form" type="submit" value="Submit" />
-				</div>
-			</form>
+		<div className="container-b-form container">
+			<form
+				className='d-flex flex-column justify-content-center align-items-center'
+				onSubmit={handleCreateNewCar}>
+				<label className="mb-4 h5 d-flex flex-column">
+					Name:
+					<input
+						className="mt-2 add-input"
+						type="text"
+						name="name"
+						value={carData.name}
+						onChange={handleInputChange}
+					/>
+				</label>
+				<label className="mb-4  h5 d-flex flex-column">
+					Description:
+					<textarea
+						className="mt-2 add-input"
+						type="text"
+						name="description"
+						value={carData.description}
+						onChange={handleInputChange}
+					/>
+				</label>
+				<label className="mb-4 h5 d-flex flex-column">
+					Photo:
+					<input
+						placeholder='Enter photo URL here'
+						className="mt-2 add-input"
+						type="text"
+						name="photo"
+						value={carData.photo}
+						onChange={handleInputChange}
+					/>
+				</label>
+				<label className="mb-2 h5 d-flex flex-column">
+					Price:
+					<input
+						placeholder='Enter price here'
+						className="mt-2 add-input"
+						type="text"
+						name="price"
+						value={carData.price}
+						onChange={handleInputChange}
+					/>
+				</label>
+				<label className="mb-2 h5 d-flex flex-column">
+					Model:
+					<input
+						className="mt-2 add-input"
+						type="text"
+						name="model"
+						value={carData.model}
+						onChange={handleInputChange}
+					/>
+				</label>
+				<input className="mt-4 button-b-form" type="submit" value="Submit" />
+
+			</form >
 			{successMessage && (
 				<p className="mt-2 alert alert-success text-center">{successMessage}</p>
 			)}
-			{errorMessage && (
-				<p className="mt-2 alert alert-danger text-center">
-					Please fill out all fields
-				</p>
-			)}
-		</div>
+			{
+				errorMessage && (
+					<p className="mt-2 alert alert-danger text-center">
+						Please fill out all fields
+					</p>
+				)
+			}
+		</div >
 	);
 };
 

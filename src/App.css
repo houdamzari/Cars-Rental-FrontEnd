@@ -54,7 +54,15 @@
   }
 
   .container-b-form {
+    width: 90%;
     padding: 2vw;
+    background-color: rgb(250, 250, 250);
+    height: 80vh;
+    align-self: center;
+    border-radius: 25px;
+    -webkit-box-shadow: 0 35px 20px #777;
+    -moz-box-shadow: 0 35px 20px #777;
+    box-shadow: 0 35px 20px #777;
   }
 
   .button {
@@ -100,13 +108,14 @@
 
   .add-input {
     font-size: 4vw;
-    width: 50vw;
+    width: 70vw;
     border-radius: 50px;
     border: 1px solid gray;
     box-shadow: inset 0 0 0 0.1rem #fff;
     background-color: white;
     padding: 1vw;
     text-align: center;
+    height: 6vh;
   }
 
   .header-reservation {
@@ -252,7 +261,15 @@
   }
 
   .container-b-form {
+    width: 50%;
     padding: 2vw;
+    background-color: rgb(250, 250, 250);
+    height: 95vh;
+    align-self: center;
+    border-radius: 25px;
+    -webkit-box-shadow: 0 35px 20px #777;
+    -moz-box-shadow: 0 35px 20px #777;
+    box-shadow: 0 35px 20px #777;
   }
 
   .add-input {
