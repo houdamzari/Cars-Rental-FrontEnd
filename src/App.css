@@ -270,17 +270,18 @@
     -webkit-box-shadow: 0 35px 20px #777;
     -moz-box-shadow: 0 35px 20px #777;
     box-shadow: 0 35px 20px #777;
+    overflow-y: auto;
   }
 
   .add-input {
-    font-size: 2vw;
+    font-size: 1vw;
     width: 35vw;
     border-radius: 50px;
     border: 1px solid gray;
     box-shadow: inset 0 0 0 0.1rem #fff;
     background-color: white;
     padding: 1vw;
-    text-align: center;
+    text-align: start;
   }
 
   .header-reservation {
